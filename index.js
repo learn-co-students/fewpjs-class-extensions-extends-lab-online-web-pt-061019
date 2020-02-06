@@ -18,12 +18,13 @@ class Triangle extends Polygon{
             let side1 = this.arrayOfSides[0]
             let side2 = this.arrayOfSides[1]
             let side3 = this.arrayOfSides[2]
-            if ((side1 + side2 > side3) && (side1 + side3 > side2) && (side2 + side3 > side1))
+            if ((side1 + side2 > side3) && (side1 + side3 > side2) && (side2 + side3 > side1)){
                 return true
-            else{
-                false
             }
 
+        }
+        else {
+            return false
         }
 
     }
