@@ -36,10 +36,3 @@ class Square extends Polygon {
         return this.array[0] * this.array[1];
     }
 }
-
-let polygon = new Polygon( [ 5, 5, 5 ] )
-
-let triangle = new Triangle( [ 5, 5, 5 ] )
-let triangle2 = new Triangle( [ 15, 10, 1 ] )
-triangle.countSides
-triangle2.isValid
